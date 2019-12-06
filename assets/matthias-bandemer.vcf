@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+SOURCE:https://bandemer.dev/matthias-bandemer.vcf
+N:Bandemer;Matthias
+FN:Matthias
+TITLE:Webentwickler
+URL:https://bandemer.dev
+PHOTO:https://bandemer.dev/assets/matthias-bandemer.png
+EMAIL;INTERNET:matthias@bandemer.net
+END:VCARD

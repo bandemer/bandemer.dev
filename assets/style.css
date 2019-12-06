@@ -1,0 +1,172 @@
+body {
+    background-color: #F0F0F0;
+    padding:1%;
+    font-family: 'Source Serif Pro', serif;
+    font-size:1.5rem;
+}
+.container-1 {
+    width:50%;
+    margin:3rem auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 15rem 1fr ;
+    grid-template-rows: 15rem;
+    grid-gap: 3rem;
+}
+.container-2 {
+    width:50%;
+    margin:4rem auto;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2rem 3rem 3rem 3rem;
+    grid-gap: 1.7rem;
+}
+h1 {
+    display:block;
+    width:14rem;
+    height:14rem;
+    background-image: url('matthias-bandemer.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -100000px;
+    border-radius: 100%;
+    border-width:0.5rem;
+    border-color:#FFFFFF;
+    border-style: solid;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem #A0A0A0;
+    margin:0 auto;
+    padding:0;
+}
+h2 {
+    font-size: 1.6rem;
+    margin:0;
+    padding:0;
+}
+.first-word {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.item-2 {
+    grid-column: 2 / -1;
+}
+
+.item-3 {
+    grid-column: 1 / -1;
+}
+
+.item-4 {
+    grid-column: 1;
+}
+.item-5 {
+    grid-column: 2;
+}
+.item-6 {
+    grid-column: 3;
+}
+
+@media only screen and (max-width: 1680px) and (min-width: 1200px) {
+    .link-vcard span {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size:1.3rem;
+    }
+    .first-word {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+    .container-1 {
+        width: 60%;
+    }
+
+    .container-2 {
+        width:15rem;
+        grid-template-columns: 1fr;
+    }
+
+    .item-3 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .item-4 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .item-5 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .item-6 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+}
+
+
+@media only screen and (max-width: 960px){
+
+    body {
+        font-size:1.2rem;
+    }
+
+
+    .first-word {
+        font-size: 1.3rem;
+    }
+    .container-1 {
+        width:90%;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15rem 8rem;
+
+
+    }
+
+    .item-1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .item-2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+
+a {
+    font-size: 1.3rem;
+    display:block;
+    height:1.8rem;
+    width:auto;
+    padding:0.1rem 0.1rem 0.1rem 2.7rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size:2rem 2rem;
+    text-align: left;
+    color:#0000C0;
+}
+a:hover {
+    text-decoration: none;
+    color:#003790;
+
+}
+
+.link-mail {
+    background-image: url("envelope-solid.svg");
+}
+.link-github {
+    background-image: url("github-brands.svg");
+}
+.link-vcard {
+    background-image: url("address-card-regular.svg");
+}
