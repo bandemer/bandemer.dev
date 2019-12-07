@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="de">
 <head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Matthias Bandemer - Webentwickler</title>
 <link href="assets/style.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
