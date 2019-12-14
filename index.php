@@ -6,6 +6,12 @@
 <title>Matthias Bandemer - Webentwickler</title>
 <link href="assets/style.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+<meta property="og:title" content="Matthias Bandemer - Webentwickler"/>
+<meta property="og:description" content="Hi, mein Name ist Matthias Bandemer und ich bin ein Webentwickler aus Dresden."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://bandemer.dev"/>
+<meta property="og:site_name" content="Matthias Bandemer - Webentwickler"/>
+<meta property="og:image" content="https://bandemer.dev/assets/matthias-bandemer.png"/>
 </head>
 <body>
 
@@ -26,4 +32,3 @@
 
 </body>
 </html>
-
