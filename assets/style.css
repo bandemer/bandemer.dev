@@ -66,6 +66,17 @@ h2 {
 .item-6 {
     grid-column: 3;
 }
+.footer {
+    display:grid;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin:2rem auto;
+}
+.footer a {
+    display:inline;
+    margin:0 auto;
+}
 
 @media only screen and (max-width: 1680px) and (min-width: 1200px) {
     .link-vcard span {
@@ -158,7 +169,6 @@ a {
 a:hover {
     text-decoration: none;
     color:#003790;
-
 }
 
 .link-mail {
@@ -169,4 +179,7 @@ a:hover {
 }
 .link-vcard {
     background-image: url("address-card-regular.svg");
+}
+.link-external {
+    background-image: url("external-link-alt-solid.svg");
 }
