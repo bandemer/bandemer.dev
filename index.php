@@ -34,7 +34,7 @@
     <div class="item-6"><a href="assets/matthias-bandemer.vcf" class="link-vcard" title="Meine Kontaktdaten als vCard-Datei"><span>Download </span>vCard</a></div>
 </div>
 <div class="footer">
-    <a href="https://pdf-barrierefrei.bandemer.net" class="link-external">Barrierefreie PFD-Dateien</a>
+    <a href="https://pdf-barrierefrei.bandemer.net" class="link-external">Barrierefreie PDF-Dateien</a>
 </div>
 
 </body>
